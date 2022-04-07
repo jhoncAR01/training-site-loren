@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="treino.css">
+    <title>formulario login</title>
+</head>
+
+
+<body>
+    <fieldset>
+        <legend>login</legend>
+     <form id="formu" class="formi" method="post">
+        <h1><i>Criar conta</i></h1>
+        <div class="nom">
+            <label for="tex">Nome:</label>
+            <input type="text" name="tex" required> 
+        </div>
+        <br>
+
+        <div class="nom">
+            <label for="email">email:</label>
+            <input type="email" name="email" required>
+        </div>
+        <br>
+
+          <div class="nom">
+              <label for="senha">senha</label>
+              <input type="password" name="senha" required minlength="5" >
+          </div>
+          <br>
+
+        <div>
+            <label for="nume" for="leg"></label>
+            <legend name="leg">idade opicional</legend>
+            <input type="number" name="nume" min="13">
+        </div>
+        <br>
+        <div>
+            <label>
+                <legend>Em que area voçê atua</legend>
+                <select>
+                    <option value="valor1">tecnologi da inforção</option>
+                    <option value="valor2">marketin</option>
+                    <option value="valor3">administraçõa</option>
+                    <option value="vi">contador</option>
+                    <option value="vxx">engenhero</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>
+                <legend>qual é a linguagende programação que você atua</legend>
+                <input type="radio" name="linguagen" value="javascript" class="clas">
+                javascript
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="linguagen" value="java">
+                java
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="linguagen" value="c#">
+                c#
+            </label>
+        </div>
+        <br>
+        <div class="selec">
+            <legend>qual é seu nivel de experienci na programação</legend>
+            <select class="selec" required>
+                <option value="seila">junuior</option>
+                <option value="sei">pleno</option>
+                <option value="qual">senior</option>
+            </select>
+        </div>
+        <br>
+        <div id="caixa">
+           <p>em que area você gostaria de melhorar</p>
+            <label class="cas">
+                <input type="checkbox" class="faixa">
+                front-end
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Back-end
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Data Visualization
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Challenges
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Open Source Community
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Gitter help rooms
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Videos
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                City Meetups
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Wiki
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Forum
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" class="faixa">
+                Additional Courses
+            </label>
+        </div>
+        <br>
+        <div>
+        <label>
+            <legend>algun comentario ou sugestão?</legend>
+            <textarea name="" cols="30" rows="10" placeholder="algun comemntario?"></textarea>
+        </label>
+        <div>
+            <button type="submit" class="submit">Eviar</button>
+        </div>
+    </form>
+    </fieldset>
+</body>
+
+</html>
